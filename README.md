@@ -19,12 +19,6 @@ A simple and responsive product listing web app built using **React** and **Redu
 
 ---
 
-## 📸 Screenshots
-
-![screenshort](https://github.com/user-attachments/assets/2491a24a-d99d-4dfe-88ff-e573716021f2)
-
----
-
 ## 🛠️ Tech Stack
 
 - **React**
@@ -42,4 +36,22 @@ A simple and responsive product listing web app built using **React** and **Redu
    ```bash
    git clone https://github.com/amankureshi/Aramanee-shop.git
    cd Aramanee-shop
+   cd backend
+   npm install
+   MONGO_URI=your_mongodb_connection_string
+   PORT=5000
+   npm run dev
    ```
+2. **Fronted Setup**
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
+   ```
+---
+
+## 📸 Screenshots
+
+![screenshort](https://github.com/user-attachments/assets/2491a24a-d99d-4dfe-88ff-e573716021f2)
+
+
